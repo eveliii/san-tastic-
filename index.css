@@ -1,0 +1,191 @@
+/* styles.css */
+
+body {
+background: linear-gradient(blueviolet, peachpuff);
+
+     font-family: "Kode Mono", monospace ;
+    margin:10px auto 10px auto;
+}
+
+header {
+     text-align: start;
+    margin-left:2px; 
+    background-color: #333;
+    color: #fff;
+    padding: 10px 10px;
+}
+#background{
+    background: url(art/img9.jpeg);
+    background-size: cover;
+    height: 400px; 
+    margin: 20px
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 5px 2px 1px #333;
+    font-weight: bold;
+}
+#about-me{
+   align-items: center;
+}
+#pro-pic{
+    width: 150px;
+    max-height: 150px;
+    border: 5px solid peru;
+    border-radius: 50%; 
+    text-align: center;
+    margin: 2px 50px 10px 2px;
+}
+#pic-text{
+    display: flex;
+}
+p{
+    text-shadow: 5px 5px 10px white;
+    font-size: 14px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#gallery1{
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto 5px auto;
+      justify-content: center;
+}
+#gallery2{
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto 5px auto;
+}
+#gallery3{
+     display: flex;
+    flex-direction: column;
+    margin: 5px auto 5px auto;
+     justify-content: center;
+}
+
+#image1{
+    
+    width: 100px;
+    height: 100px;
+    margin: 0 0 5px 0; 
+   
+}
+#image2{
+    width: 140px;
+    height: 200px;
+    margin: 0 0 5px 0; 
+  
+}
+#image3{
+    width: 100px;
+    height: 220px;
+    margin: 0 0 5px 0; 
+      
+}
+#image4{
+    width: 100px;
+    height: 150px;
+}
+#image5{
+    width: 140px;
+    height: 200px;
+}
+#image6{
+    width: 100px;
+    height: 120px;
+}
+.image{
+      margin-right: 10px;
+    border: 5px solid #0a0930;
+    transition: filter 0.3s ease;
+}
+.image:hover {
+    transform: scale(1.4);
+    z-index: 1;
+    filter: blur(0);
+}
+
+
+
+#gallery-flex{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto 50px auto 10px;
+    max-width: 400px;
+    min-width: 370px;
+    
+}
+#contact-flex{
+    display: flex;
+    flex-direction: column;
+}
+#email{
+    background: #6345;
+    padding: 10px;
+    margin: 0px;
+    border: 5px solid #0a0930;
+    display: flex;
+    
+}
+#insta{
+    width: 35px;
+    border-radius: 100%;
+}
+#facebook {
+    width: 27px;
+    border-radius: 100%;
+    border: 4px solid white
+}
+
+#linkdin{
+    width: 28px;
+    border-radius: 100%;
+    margin-left: 5px;
+    border: 4px solid white;
+}
+
+#x{
+    width: 36px;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+h5{
+    margin: 10px 10px 5px 60px
+}
+input{
+    width: 100px;
+    margin-left: 60px
+}
+button{
+    
+}
+
